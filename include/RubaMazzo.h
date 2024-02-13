@@ -33,7 +33,7 @@ protected:
     int *mazzoG2; // 3   insieme di carte raccolte nel corso del gioco dal giocatore 2
     int *manoG1; // 4   insieme di carte presenti nella mano del giocatore 1
     int *manoG2; // 5   insieme di carte presenti nella mano del giocatore 2
-    int *dim;
+    int *dim;  // dimensione
 
 private:
     int typeGame();
